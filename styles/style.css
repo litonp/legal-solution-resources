@@ -1,0 +1,120 @@
+.container {
+    width: 1170px;
+    height: 550px;
+}
+
+.frist {
+    margin-top: -430px;
+    color: white;
+    line-height: 85px;
+    font-weight: 800;
+    font-family: EB Garamond;
+    font-size: 72px;
+}
+
+.frist1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pera {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.frist2 {
+    width: 400px;
+    height: 64px;
+    margin-left: 268px;
+    margin-top: 32px;
+}
+
+.content {
+    font-family: EB Garamond;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.second1 {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.third {
+    border-bottom: 2px solid #E7E7E7;
+}
+
+
+.third2 {
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+
+}
+
+.practice-content {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.practicr-area {
+    border-bottom: 1px solid #E7E7E7;
+
+}
+
+
+.practicr-area img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-client {
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.our-client::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.our-client img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
+
+.client {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.client1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
